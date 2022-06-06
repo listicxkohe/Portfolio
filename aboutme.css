@@ -1,0 +1,130 @@
+.aboutme-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutme-banner {
+  width: 100%;
+  height: 856px;
+  display: inherit;
+  padding: var(--dl-space-space-threeunits);
+  align-self: center;
+  transition: 0.3s;
+  align-items: center;
+  border-color: #000000;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/current%20projects%5B6%5D-900h.png");
+}
+
+.aboutme-text {
+  color: #ff7388;
+  font-size: 5rem;
+  margin-top: 559px;
+  text-align: center;
+  font-family: Nanum Pen Script;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.aboutme-text01 {
+  color: #f1324e;
+  font-size: 50px;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-family: Nanum Pen Script;
+}
+.aboutme-navlink {
+  width: 443px;
+  height: 42px;
+  display: flex;
+  font-size: 50px;
+  margin-top: var(--dl-space-space-twounits);
+  min-height: 10%;
+  text-align: center;
+  transition: 0.3s;
+  padding-top: 0px;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 5px;
+  padding-left: 114px;
+  margin-bottom: 525px;
+  padding-right: var(--dl-space-space-fourunits);
+  flex-direction: row;
+  padding-bottom: 6px;
+  text-transform: capitalize;
+  background-size: cover;
+  text-decoration: none;
+  background-color: transparent;
+  background-image: url("public/playground_assets/normal-200h.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.aboutme-navlink:hover {
+  background-size: cover;
+  background-image: 317dbe8e-b012-4feb-a83f-4664ced2a105;
+}
+.aboutme-navlink:active {
+  background-size: cover;
+  background-image: 70659973-a909-4f9e-9f6e-22a02eb5223c;
+}
+.aboutme-text17 {
+  color: #ff7388;
+  text-align: center;
+  font-family: Nanum Pen Script;
+}
+.aboutme-text18 {
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+@media(max-width: 991px) {
+  .aboutme-text {
+    margin-bottom: 250px;
+  }
+  .aboutme-text18 {
+    max-width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .aboutme-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .aboutme-navlink {
+    width: 413px;
+    height: 96px;
+    min-height: 10%;
+    padding-right: 12px;
+  }
+  .aboutme-text18 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .aboutme-banner {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .aboutme-text {
+    margin-bottom: 0px;
+  }
+  .aboutme-text01 {
+    width: auto;
+    font-size: 25px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .aboutme-navlink {
+    width: 372px;
+    height: 59px;
+    padding-top: 2px;
+    padding-left: var(--dl-space-space-sixunits);
+    background-size: contain;
+  }
+}
