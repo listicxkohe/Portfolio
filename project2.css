@@ -50,6 +50,20 @@
 .feature-card31-root-class-name7 {
   opacity: 0.2;
 }
+@media(max-width: 479px) {
+  .feature-card31-root-class-name2 {
+    opacity: 0.2;
+  }
+  .feature-card31-root-class-name4 {
+    opacity: 0.2;
+  }
+  .feature-card31-root-class-name6 {
+    opacity: 0.2;
+  }
+  .feature-card31-root-class-name7 {
+    opacity: 1;
+  }
+}
 
 .project2-container {
   width: 100%;
@@ -755,10 +769,11 @@
 }
 @media(max-width: 479px) {
   .project2-banner {
+    height: 425px;
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-halfunit);
   }
   .project2-text {
     margin-bottom: 0px;
@@ -774,8 +789,9 @@
     height: 59px;
     font-size: 40px;
     padding-top: 11px;
-    padding-left: 88px;
+    padding-left: 113px;
     padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: 44px;
     background-size: contain;
   }
   .project2-development-stages {

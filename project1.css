@@ -50,6 +50,20 @@
 .feature-card31-root-class-name7 {
   opacity: 0.2;
 }
+@media(max-width: 479px) {
+  .feature-card31-root-class-name2 {
+    opacity: 0.2;
+  }
+  .feature-card31-root-class-name4 {
+    opacity: 0.2;
+  }
+  .feature-card31-root-class-name6 {
+    opacity: 0.2;
+  }
+  .feature-card31-root-class-name7 {
+    opacity: 1;
+  }
+}
 
 .project1-container {
   width: 100%;
@@ -766,12 +780,14 @@
     text-align: center;
   }
   .project1-navlink {
-    width: 372px;
-    height: 59px;
+    width: 333px;
+    height: 134px;
     font-size: 40px;
-    padding-top: 11px;
-    padding-left: 88px;
-    padding-right: var(--dl-space-space-oneandhalfunits);
+    min-height: auto;
+    padding-top: 5px;
+    padding-left: 75px;
+    padding-right: 4px;
+    padding-bottom: var(--dl-space-space-halfunit);
     background-size: contain;
   }
   .project1-development-stages {

@@ -205,9 +205,13 @@
   .home-navlink1 {
     width: 372px;
     height: 59px;
-    padding-top: 3px;
-    padding-left: var(--dl-space-space-sixunits);
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-fiveunits);
+    padding-right: 0px;
     background-size: contain;
+  }
+  .home-text2 {
+    font-size: 45px;
   }
   .home-navlink2 {
     width: 372px;

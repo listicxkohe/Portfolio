@@ -50,3 +50,17 @@
 .feature-card31-root-class-name7 {
   opacity: 0.2;
 }
+@media(max-width: 479px) {
+  .feature-card31-root-class-name2 {
+    opacity: 0.2;
+  }
+  .feature-card31-root-class-name4 {
+    opacity: 0.2;
+  }
+  .feature-card31-root-class-name6 {
+    opacity: 0.2;
+  }
+  .feature-card31-root-class-name7 {
+    opacity: 1;
+  }
+}

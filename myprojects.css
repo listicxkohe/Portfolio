@@ -256,9 +256,12 @@
   .myprojects-navlink2 {
     width: 372px;
     height: 59px;
-    padding-top: 3px;
-    padding-left: var(--dl-space-space-sixunits);
+    padding-top: 13px;
+    padding-left: 85px;
     background-size: contain;
+  }
+  .myprojects-text3 {
+    font-size: 35px;
   }
   .myprojects-navlink3 {
     width: 372px;
