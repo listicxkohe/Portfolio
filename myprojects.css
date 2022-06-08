@@ -12,13 +12,11 @@
   height: var(--dl-size-size-maxwidth);
   margin: auto;
   display: inherit;
-  padding: var(--dl-space-space-threeunits);
   max-width: 100%;
   align-self: center;
   max-height: 100vh;
   transition: 0.3s;
   align-items: center;
-  padding-top: 42px;
   border-color: #000000;
   flex-direction: column;
   background-size: cover;
@@ -29,7 +27,7 @@
 .myprojects-text {
   color: #ff7388;
   font-size: 5rem;
-  margin-top: var(--dl-space-space-halfunit);
+  margin-top: auto;
   text-align: center;
   font-family: Nanum Pen Script;
 }
@@ -148,8 +146,11 @@
   transform: scale(1.02);
 }
 @media(max-width: 991px) {
+  .myprojects-banner {
+    margin-right: auto;
+  }
   .myprojects-text {
-    margin-bottom: 250px;
+    margin-bottom: var(--dl-space-space-halfunit);
   }
   .myprojects-text1 {
     max-width: 100%;
@@ -176,6 +177,9 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .myprojects-text {
+    margin-bottom: 1px;
+  }
   .myprojects-text1 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
@@ -199,13 +203,30 @@
 }
 @media(max-width: 479px) {
   .myprojects-banner {
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
+    height: var(--dl-size-size-maxwidth);
+    padding-top: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
   }
   .myprojects-text {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+  .myprojects-card {
+    width: auto;
+    height: var(--dl-size-size-xsmall);
+  }
+  .myprojects-card1 {
+    width: auto;
+    height: var(--dl-size-size-xsmall);
+  }
+  .myprojects-card2 {
+    width: auto;
+    height: var(--dl-size-size-xsmall);
+  }
+  .myprojects-card3 {
+    height: var(--dl-size-size-xsmall);
   }
 }
