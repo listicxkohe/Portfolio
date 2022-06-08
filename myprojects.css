@@ -9,7 +9,7 @@
 }
 .myprojects-banner {
   width: 100%;
-  height: 100%;
+  height: var(--dl-size-size-maxwidth);
   margin: auto;
   display: inherit;
   padding: var(--dl-space-space-threeunits);
@@ -23,174 +23,152 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/playground_assets/current%20projects%5B6%5D-1500w.png");
+  background-image: url("public/playground_assets/current%20projects%5B6%5D-1400h.png");
 }
 
 .myprojects-text {
   color: #ff7388;
   font-size: 5rem;
-  margin-top: 339px;
+  margin-top: var(--dl-space-space-halfunit);
   text-align: center;
   font-family: Nanum Pen Script;
-  margin-bottom: 67px;
-}
-.myprojects-navlink {
-  display: flex;
-  font-size: 50px;
-  margin-top: 10px;
-  text-align: center;
-  transition: 0.3s;
-  padding-top: 0px;
-  border-color: rgba(0, 0, 0, 0);
-  border-width: 5px;
-  padding-left: 109px;
-  margin-bottom: 50px;
-  padding-right: 88px;
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-  text-transform: capitalize;
-  background-size: cover;
-  text-decoration: none;
-  background-color: transparent;
-  background-image: url("public/playground_assets/normal-200h.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.myprojects-navlink:hover {
-  background-size: cover;
-  background-image: 317dbe8e-b012-4feb-a83f-4664ced2a105;
-}
-.myprojects-navlink:active {
-  background-size: cover;
-  background-image: 70659973-a909-4f9e-9f6e-22a02eb5223c;
 }
 .myprojects-text1 {
-  color: #ff7388;
-  text-align: center;
-  font-family: Nanum Pen Script;
-}
-.myprojects-navlink1 {
-  height: 181px;
-  display: flex;
-  font-size: 50px;
-  margin-top: 10px;
-  text-align: center;
-  transition: 0.3s;
-  padding-top: 0px;
-  border-color: rgba(0, 0, 0, 0);
-  border-width: 5px;
-  padding-left: 137px;
-  margin-bottom: 50px;
-  padding-right: 37px;
-  flex-direction: row;
-  padding-bottom: 19px;
-  text-transform: capitalize;
-  background-size: cover;
-  text-decoration: none;
-  background-color: transparent;
-  background-image: url("public/playground_assets/normal-200h.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.myprojects-navlink1:hover {
-  background-size: cover;
-  background-image: 317dbe8e-b012-4feb-a83f-4664ced2a105;
-}
-.myprojects-navlink1:active {
-  background-size: cover;
-  background-image: 70659973-a909-4f9e-9f6e-22a02eb5223c;
-}
-.myprojects-text2 {
-  color: #ff7388;
-  text-align: center;
-  font-family: Nanum Pen Script;
-}
-.myprojects-navlink2 {
-  height: 150px;
-  display: flex;
-  font-size: 40px;
-  margin-top: 10px;
-  text-align: center;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  border-color: rgba(0, 0, 0, 0);
-  border-width: 5px;
-  padding-left: 104px;
-  margin-bottom: 50px;
-  padding-right: 0px;
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-halfunit);
-  text-transform: capitalize;
-  background-size: cover;
-  justify-content: center;
-  text-decoration: none;
-  background-color: transparent;
-  background-image: url("public/playground_assets/normal-200h.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.myprojects-navlink2:hover {
-  background-size: cover;
-  background-image: 317dbe8e-b012-4feb-a83f-4664ced2a105;
-}
-.myprojects-navlink2:active {
-  background-size: cover;
-  background-image: 70659973-a909-4f9e-9f6e-22a02eb5223c;
-}
-.myprojects-text3 {
-  color: #ff7388;
-  align-self: center;
-  text-align: center;
-  font-family: Nanum Pen Script;
-}
-.myprojects-navlink3 {
-  display: flex;
-  font-size: 50px;
-  margin-top: 10px;
-  text-align: center;
-  transition: 0.3s;
-  padding-top: 0px;
-  border-color: rgba(0, 0, 0, 0);
-  border-width: 5px;
-  padding-left: 121px;
-  margin-bottom: 400px;
-  padding-right: var(--dl-space-space-twounits);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-halfunit);
-  text-transform: capitalize;
-  background-size: cover;
-  text-decoration: none;
-  background-color: transparent;
-  background-image: url("public/playground_assets/normal-200h.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.myprojects-navlink3:hover {
-  background-size: cover;
-  background-image: 317dbe8e-b012-4feb-a83f-4664ced2a105;
-}
-.myprojects-navlink3:active {
-  background-size: cover;
-  background-image: 70659973-a909-4f9e-9f6e-22a02eb5223c;
-}
-.myprojects-text4 {
-  color: #ff7388;
-  text-align: center;
-  font-family: Nanum Pen Script;
-}
-.myprojects-text5 {
   max-width: var(--dl-size-size-maxwidth);
   margin-top: var(--dl-space-space-twounits);
   text-align: center;
   margin-bottom: var(--dl-space-space-twounits);
 }
+.myprojects-card {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-threeunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+.myprojects-navlink {
+  color: var(--dl-color-gray-white);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  font-style: normal;
+  transition: 0.3s;
+  flex-shrink: 0;
+  font-family: Comic Sans MS;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-unit);
+  border-style: groove;
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: #ff7388;
+}
+.myprojects-navlink:hover {
+  transform: scale(1.02);
+}
+.myprojects-card1 {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-threeunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+.myprojects-navlink1 {
+  color: var(--dl-color-gray-white);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  font-style: normal;
+  transition: 0.3s;
+  flex-shrink: 0;
+  font-family: Comic Sans MS;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-unit);
+  border-style: groove;
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: #ff7388;
+}
+.myprojects-navlink1:hover {
+  transform: scale(1.02);
+}
+.myprojects-card2 {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-threeunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+.myprojects-navlink2 {
+  color: var(--dl-color-gray-white);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  font-style: normal;
+  transition: 0.3s;
+  flex-shrink: 0;
+  font-family: Comic Sans MS;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-unit);
+  border-style: groove;
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: #ff7388;
+}
+.myprojects-navlink2:hover {
+  transform: scale(1.02);
+}
+.myprojects-card3 {
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-threeunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+.myprojects-navlink3 {
+  color: var(--dl-color-gray-white);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  font-style: normal;
+  transition: 0.3s;
+  flex-shrink: 0;
+  font-family: Comic Sans MS;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-unit);
+  border-style: groove;
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: #ff7388;
+}
+.myprojects-navlink3:hover {
+  transform: scale(1.02);
+}
 @media(max-width: 991px) {
   .myprojects-text {
     margin-bottom: 250px;
   }
-  .myprojects-text5 {
+  .myprojects-text1 {
     max-width: 100%;
+  }
+  .myprojects-navlink {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .myprojects-navlink1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .myprojects-navlink2 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .myprojects-navlink3 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
   }
 }
 @media(max-width: 767px) {
@@ -198,33 +176,25 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .myprojects-navlink {
-    width: 413px;
-    height: 96px;
-    min-height: 10%;
-    padding-right: 12px;
-  }
-  .myprojects-navlink1 {
-    width: 413px;
-    height: 96px;
-    min-height: 10%;
-    padding-right: 12px;
-  }
-  .myprojects-navlink2 {
-    width: 413px;
-    height: 96px;
-    min-height: 10%;
-    padding-right: 12px;
-  }
-  .myprojects-navlink3 {
-    width: 413px;
-    height: 96px;
-    min-height: 10%;
-    padding-right: 12px;
-  }
-  .myprojects-text5 {
+  .myprojects-text1 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
+  }
+  .myprojects-card {
+    width: 100%;
+    flex-direction: column;
+  }
+  .myprojects-card1 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .myprojects-card2 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .myprojects-card3 {
+    width: 100%;
+    flex-direction: column;
   }
 }
 @media(max-width: 479px) {
@@ -237,44 +207,5 @@
   .myprojects-text {
     margin-top: 0px;
     margin-bottom: 0px;
-  }
-  .myprojects-navlink {
-    width: auto;
-    height: auto;
-    min-height: auto;
-    padding-top: 5px;
-    padding-left: 105px;
-    padding-right: var(--dl-space-space-twounits);
-    background-size: contain;
-  }
-  .myprojects-navlink1 {
-    width: auto;
-    height: auto;
-    min-height: auto;
-    padding-top: 3px;
-    padding-left: var(--dl-space-space-sixunits);
-    background-size: contain;
-  }
-  .myprojects-navlink2 {
-    width: auto;
-    height: auto;
-    min-height: auto;
-    padding-top: 19px;
-    padding-left: 85px;
-    padding-bottom: 21px;
-    background-size: contain;
-  }
-  .myprojects-text3 {
-    font-size: 35px;
-  }
-  .myprojects-navlink3 {
-    width: auto;
-    height: auto;
-    min-height: auto;
-    padding-top: 2px;
-    padding-left: 105px;
-    margin-bottom: 146px;
-    padding-right: var(--dl-space-space-unit);
-    background-size: contain;
   }
 }

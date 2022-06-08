@@ -8,6 +8,7 @@
 }
 .mypcspecs-banner {
   width: 100%;
+  height: var(--dl-size-size-maxwidth);
   display: inherit;
   margin:: auto;
   padding: var(--dl-space-space-threeunits);
@@ -20,7 +21,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/playground_assets/current%20projects%5B8%5D1-1500w.png");
+  background-image: url("public/playground_assets/current%20projects%5B8%5D1-1400h.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -31,6 +32,7 @@
   margin-top: 116px;
   text-align: center;
   font-family: Nanum Pen Script;
+  margin-bottom: 41px;
 }
 .mypcspecs-text01 {
   color: #f1324e;
@@ -41,39 +43,26 @@
   font-family: Nanum Pen Script;
 }
 .mypcspecs-navlink {
-  display: flex;
-  font-size: 50px;
-  text-align: center;
+  color: var(--dl-color-gray-white);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  font-style: normal;
   transition: 0.3s;
-  padding-top: 11px;
-  border-color: rgba(0, 0, 0, 0);
-  border-width: 5px;
-  padding-left: 115px;
-  padding-right: var(--dl-space-space-fourunits);
-  flex-direction: row;
-  padding-bottom: 6px;
-  text-transform: capitalize;
-  background-size: cover;
+  flex-shrink: 0;
+  font-family: Comic Sans MS;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-unit);
+  border-style: groove;
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
-  background-color: transparent;
-  background-image: url("public/playground_assets/normal-200h.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #ff7388;
 }
 .mypcspecs-navlink:hover {
-  background-size: cover;
-  background-image: 317dbe8e-b012-4feb-a83f-4664ced2a105;
-}
-.mypcspecs-navlink:active {
-  background-size: cover;
-  background-image: 70659973-a909-4f9e-9f6e-22a02eb5223c;
+  transform: scale(1.02);
 }
 .mypcspecs-text12 {
-  color: #ff7388;
-  text-align: center;
-  font-family: Nanum Pen Script;
-}
-.mypcspecs-text13 {
   max-width: var(--dl-size-size-maxwidth);
   margin-top: var(--dl-space-space-twounits);
   text-align: center;
@@ -83,7 +72,11 @@
   .mypcspecs-text {
     margin-bottom: 250px;
   }
-  .mypcspecs-text13 {
+  .mypcspecs-navlink {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .mypcspecs-text12 {
     max-width: 100%;
   }
 }
@@ -96,21 +89,14 @@
     margin-top: 203px;
     margin-bottom: 0px;
   }
-  .mypcspecs-navlink {
-    width: auto;
-    height: auto;
-    margin-top: 0px;
-    min-height: auto;
-    padding-right: 12px;
-  }
-  .mypcspecs-text13 {
+  .mypcspecs-text12 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
   .mypcspecs-banner {
-    height: auto;
+    height: var(--dl-size-size-maxwidth);
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
@@ -125,13 +111,5 @@
     font-size: 25px;
     box-sizing: border-box;
     text-align: center;
-  }
-  .mypcspecs-navlink {
-    width: auto;
-    height: auto;
-    padding-top: 2px;
-    padding-left: var(--dl-space-space-sixunits);
-    margin-bottom: 0px;
-    background-size: contain;
   }
 }
