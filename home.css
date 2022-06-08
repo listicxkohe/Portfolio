@@ -8,34 +8,37 @@
 }
 .home-banner {
   width: 100%;
-  height: 856px;
+  height: 100%;
   display: inherit;
+  margin:: auto;
   padding: var(--dl-space-space-threeunits);
-  align-self: center;
+  max-width: 100%;
+  align-self: auto;
+  max-height: 100vh;
   transition: 0.3s;
   align-items: center;
   border-color: #000000;
+  padding-right: 0px;
   flex-direction: column;
   background-size: cover;
-  justify-content: center;
-  background-image: url("public/playground_assets/current%20projects%5B6%5D-900h.png");
+  justify-content: center-fit;
+  background-image: url("public/playground_assets/current%20projects%5B6%5D-1500w.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .home-text {
   color: #ff7388;
   font-size: 5rem;
-  margin-top: 276px;
+  margin-top: 51px;
   text-align: center;
   font-family: Nanum Pen Script;
-  margin-bottom: 166px;
+  margin-bottom: var(--dl-space-space-fourunits);
 }
 .home-navlink {
-  width: 443px;
-  height: 42px;
   display: flex;
   font-size: 50px;
   margin-top: 10px;
-  min-height: 10%;
   text-align: center;
   transition: 0.3s;
   padding-top: 0px;
@@ -68,20 +71,18 @@
   font-family: Nanum Pen Script;
 }
 .home-navlink1 {
-  width: 443px;
-  height: 42px;
+  height: 100%;
   display: flex;
   font-size: 50px;
   margin-top: 10px;
-  min-height: 10%;
   text-align: center;
   transition: 0.3s;
-  padding-top: 0px;
+  padding-top: 4px;
   border-color: rgba(0, 0, 0, 0);
   border-width: 5px;
   padding-left: 108px;
   margin-bottom: 50px;
-  padding-right: 1px;
+  padding-right: 19px;
   flex-direction: row;
   padding-bottom: 6px;
   text-transform: capitalize;
@@ -106,12 +107,10 @@
   font-family: Nanum Pen Script;
 }
 .home-navlink2 {
-  width: 443px;
-  height: 42px;
+  height: 100%;
   display: flex;
   font-size: 50px;
   margin-top: 10px;
-  min-height: 10%;
   text-align: center;
   transition: 0.3s;
   padding-top: 0px;
@@ -151,7 +150,7 @@
 }
 @media(max-width: 991px) {
   .home-text {
-    margin-bottom: 250px;
+    margin-bottom: 122px;
   }
   .home-text4 {
     max-width: 100%;
@@ -162,22 +161,26 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .home-text {
+    margin-bottom: 73px;
+  }
   .home-navlink {
-    width: 413px;
-    height: 96px;
-    min-height: 10%;
-    padding-right: 12px;
+    width: auto;
+    height: auto;
+    min-height: auto;
+    padding-left: var(--dl-space-space-sixunits);
+    padding-right: 116px;
   }
   .home-navlink1 {
-    width: 413px;
-    height: 96px;
-    min-height: 10%;
+    width: auto;
+    height: auto;
+    min-height: auto;
     padding-right: 12px;
   }
   .home-navlink2 {
-    width: 413px;
-    height: 96px;
-    min-height: 10%;
+    width: auto;
+    height: auto;
+    min-height: auto;
     padding-right: 12px;
   }
   .home-text4 {
@@ -193,31 +196,43 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
   .home-text {
+    height: 185px;
+    margin-top: 0px;
     margin-bottom: 0px;
   }
   .home-navlink {
-    width: 372px;
-    height: 59px;
-    padding-top: 5px;
-    padding-left: 106px;
+    width: auto;
+    height: auto;
+    padding: var(--dl-space-space-halfunit);
+    margin-top: 160px;
+    min-height: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: 93px;
+    margin-bottom: 55px;
+    padding-right: var(--dl-space-space-fiveunits);
+    padding-bottom: 13px;
     background-size: contain;
   }
   .home-navlink1 {
-    width: 372px;
-    height: 59px;
-    padding-top: var(--dl-space-space-halfunit);
-    padding-left: var(--dl-space-space-fiveunits);
+    width: auto;
+    height: auto;
+    min-height: auto;
+    margin-left: 0px;
+    padding-top: 12px;
+    padding-left: 117px;
     padding-right: 0px;
+    padding-bottom: var(--dl-space-space-halfunit);
     background-size: contain;
   }
   .home-text2 {
     font-size: 45px;
   }
   .home-navlink2 {
-    width: 372px;
-    height: 59px;
-    padding-top: 2px;
-    padding-left: var(--dl-space-space-sixunits);
+    width: auto;
+    height: auto;
+    min-height: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: 108px;
     background-size: contain;
   }
 }

@@ -8,17 +8,22 @@
 }
 .aboutme-banner {
   width: 100%;
-  height: 856px;
+  height: 100%;
   display: inherit;
+  margin:: auto;
   padding: var(--dl-space-space-threeunits);
+  max-width: 100%;
   align-self: center;
+  max-height: 100vh;
   transition: 0.3s;
   align-items: center;
   border-color: #000000;
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/playground_assets/current%20projects%5B6%5D-900h.png");
+  background-image: url("public/playground_assets/current%20projects%5B6%5D-1500w.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .aboutme-text {
@@ -32,17 +37,13 @@
 .aboutme-text01 {
   color: #f1324e;
   font-size: 50px;
-  max-width: 100%;
   box-sizing: border-box;
   font-family: Nanum Pen Script;
 }
 .aboutme-navlink {
-  width: 443px;
-  height: 42px;
   display: flex;
   font-size: 50px;
   margin-top: var(--dl-space-space-twounits);
-  min-height: 10%;
   text-align: center;
   transition: 0.3s;
   padding-top: 0px;
@@ -84,6 +85,11 @@
   .aboutme-text {
     margin-bottom: 250px;
   }
+  .aboutme-text01 {
+    width: 100%;
+    height: 100%;
+    min-width: auto;
+  }
   .aboutme-text18 {
     max-width: 100%;
   }
@@ -121,8 +127,9 @@
     text-align: center;
   }
   .aboutme-navlink {
-    width: 372px;
-    height: 59px;
+    width: auto;
+    height: auto;
+    min-height: auto;
     padding-top: 2px;
     padding-left: var(--dl-space-space-sixunits);
     background-size: contain;

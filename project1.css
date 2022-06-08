@@ -115,7 +115,7 @@
   padding-top: 2px;
   border-color: rgba(0, 0, 0, 0);
   border-width: 5px;
-  padding-left: 114px;
+  padding-left: var(--dl-space-space-sixunits);
   margin-bottom: 400px;
   padding-right: 21px;
   flex-direction: row;
@@ -138,6 +138,7 @@
 }
 .project1-text02 {
   color: #ff7388;
+  font-size: 45px;
   text-align: center;
   font-family: Nanum Pen Script;
 }
@@ -765,10 +766,14 @@
 }
 @media(max-width: 479px) {
   .project1-banner {
+    height: 479px;
     padding-top: var(--dl-space-space-twounits);
+    border-width: 0px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+    background-size: cover;
+    background-image: b93f9a3c-8d03-441e-9702-f2f23c9c5276;
   }
   .project1-text {
     margin-bottom: 0px;
@@ -790,11 +795,15 @@
     padding-bottom: var(--dl-space-space-halfunit);
     background-size: contain;
   }
+  .project1-text02 {
+    font-size: 35px;
+  }
   .project1-development-stages {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+    background-color: #fefbec;
   }
   .project1-container01 {
     padding-left: 0px;

@@ -8,48 +8,47 @@
 }
 .mypcspecs-banner {
   width: 100%;
-  height: 856px;
   display: inherit;
+  margin:: auto;
   padding: var(--dl-space-space-threeunits);
+  max-width: 100%;
   align-self: center;
+  max-height: 100vh;
   transition: 0.3s;
   align-items: center;
   border-color: #000000;
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/playground_assets/current%20projects%5B6%5D-900h.png");
+  background-image: url("public/playground_assets/current%20projects%5B8%5D1-1500w.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .mypcspecs-text {
   color: #ff7388;
   font-size: 5rem;
-  margin-top: 414px;
+  margin-top: 116px;
   text-align: center;
   font-family: Nanum Pen Script;
-  margin-bottom: 93px;
 }
 .mypcspecs-text01 {
   color: #f1324e;
   font-size: 50px;
   max-width: 100%;
   box-sizing: border-box;
+  text-align: center;
   font-family: Nanum Pen Script;
 }
 .mypcspecs-navlink {
-  width: 443px;
-  height: 42px;
   display: flex;
   font-size: 50px;
-  margin-top: 84px;
-  min-height: 10%;
   text-align: center;
   transition: 0.3s;
-  padding-top: 0px;
+  padding-top: 11px;
   border-color: rgba(0, 0, 0, 0);
   border-width: 5px;
   padding-left: 115px;
-  margin-bottom: 400px;
   padding-right: var(--dl-space-space-fourunits);
   flex-direction: row;
   padding-bottom: 6px;
@@ -93,10 +92,15 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .mypcspecs-text {
+    margin-top: 203px;
+    margin-bottom: 0px;
+  }
   .mypcspecs-navlink {
-    width: 413px;
-    height: 96px;
-    min-height: 10%;
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    min-height: auto;
     padding-right: 12px;
   }
   .mypcspecs-text13 {
@@ -106,12 +110,14 @@
 }
 @media(max-width: 479px) {
   .mypcspecs-banner {
+    height: auto;
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
   .mypcspecs-text {
+    margin-top: 0px;
     margin-bottom: 0px;
   }
   .mypcspecs-text01 {
@@ -121,10 +127,11 @@
     text-align: center;
   }
   .mypcspecs-navlink {
-    width: 372px;
-    height: 59px;
+    width: auto;
+    height: auto;
     padding-top: 2px;
     padding-left: var(--dl-space-space-sixunits);
+    margin-bottom: 0px;
     background-size: contain;
   }
 }

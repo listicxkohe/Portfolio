@@ -5,20 +5,25 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  justify-content: flex-start;
 }
 .myprojects-banner {
   width: 100%;
-  height: 856px;
+  height: 100%;
+  margin: auto;
   display: inherit;
   padding: var(--dl-space-space-threeunits);
+  max-width: 100%;
   align-self: center;
+  max-height: 100vh;
   transition: 0.3s;
   align-items: center;
+  padding-top: 42px;
   border-color: #000000;
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/playground_assets/current%20projects%5B6%5D-900h.png");
+  background-image: url("public/playground_assets/current%20projects%5B6%5D-1500w.png");
 }
 
 .myprojects-text {
@@ -30,22 +35,19 @@
   margin-bottom: 67px;
 }
 .myprojects-navlink {
-  width: 443px;
-  height: 42px;
   display: flex;
   font-size: 50px;
   margin-top: 10px;
-  min-height: 10%;
   text-align: center;
   transition: 0.3s;
   padding-top: 0px;
   border-color: rgba(0, 0, 0, 0);
   border-width: 5px;
-  padding-left: 137px;
+  padding-left: 109px;
   margin-bottom: 50px;
-  padding-right: 44px;
+  padding-right: 88px;
   flex-direction: row;
-  padding-bottom: 6px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
   text-transform: capitalize;
   background-size: cover;
   text-decoration: none;
@@ -68,12 +70,10 @@
   font-family: Nanum Pen Script;
 }
 .myprojects-navlink1 {
-  width: 443px;
-  height: 42px;
+  height: 181px;
   display: flex;
   font-size: 50px;
   margin-top: 10px;
-  min-height: 10%;
   text-align: center;
   transition: 0.3s;
   padding-top: 0px;
@@ -83,7 +83,7 @@
   margin-bottom: 50px;
   padding-right: 37px;
   flex-direction: row;
-  padding-bottom: 6px;
+  padding-bottom: 19px;
   text-transform: capitalize;
   background-size: cover;
   text-decoration: none;
@@ -106,24 +106,24 @@
   font-family: Nanum Pen Script;
 }
 .myprojects-navlink2 {
-  width: 443px;
-  height: 42px;
+  height: 150px;
   display: flex;
   font-size: 40px;
   margin-top: 10px;
-  min-height: 10%;
   text-align: center;
   transition: 0.3s;
+  align-items: center;
   padding-top: var(--dl-space-space-halfunit);
   border-color: rgba(0, 0, 0, 0);
   border-width: 5px;
-  padding-left: 103px;
+  padding-left: 104px;
   margin-bottom: 50px;
-  padding-right: var(--dl-space-space-unit);
-  flex-direction: row;
-  padding-bottom: 6px;
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
   text-transform: capitalize;
   background-size: cover;
+  justify-content: center;
   text-decoration: none;
   background-color: transparent;
   background-image: url("public/playground_assets/normal-200h.png");
@@ -140,16 +140,14 @@
 }
 .myprojects-text3 {
   color: #ff7388;
+  align-self: center;
   text-align: center;
   font-family: Nanum Pen Script;
 }
 .myprojects-navlink3 {
-  width: 443px;
-  height: 42px;
   display: flex;
   font-size: 50px;
   margin-top: 10px;
-  min-height: 10%;
   text-align: center;
   transition: 0.3s;
   padding-top: 0px;
@@ -157,9 +155,9 @@
   border-width: 5px;
   padding-left: 121px;
   margin-bottom: 400px;
-  padding-right: var(--dl-space-space-fourunits);
+  padding-right: var(--dl-space-space-twounits);
   flex-direction: row;
-  padding-bottom: 6px;
+  padding-bottom: var(--dl-space-space-halfunit);
   text-transform: capitalize;
   background-size: cover;
   text-decoration: none;
@@ -237,37 +235,46 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
   .myprojects-text {
+    margin-top: 0px;
     margin-bottom: 0px;
   }
   .myprojects-navlink {
-    width: 372px;
-    height: 59px;
+    width: auto;
+    height: auto;
+    min-height: auto;
     padding-top: 5px;
-    padding-left: 106px;
+    padding-left: 105px;
+    padding-right: var(--dl-space-space-twounits);
     background-size: contain;
   }
   .myprojects-navlink1 {
-    width: 372px;
-    height: 59px;
+    width: auto;
+    height: auto;
+    min-height: auto;
     padding-top: 3px;
     padding-left: var(--dl-space-space-sixunits);
     background-size: contain;
   }
   .myprojects-navlink2 {
-    width: 372px;
-    height: 59px;
-    padding-top: 13px;
+    width: auto;
+    height: auto;
+    min-height: auto;
+    padding-top: 19px;
     padding-left: 85px;
+    padding-bottom: 21px;
     background-size: contain;
   }
   .myprojects-text3 {
     font-size: 35px;
   }
   .myprojects-navlink3 {
-    width: 372px;
-    height: 59px;
+    width: auto;
+    height: auto;
+    min-height: auto;
     padding-top: 2px;
-    padding-left: var(--dl-space-space-sixunits);
+    padding-left: 105px;
+    margin-bottom: 146px;
+    padding-right: var(--dl-space-space-unit);
     background-size: contain;
   }
 }
