@@ -1,0 +1,115 @@
+.my-pc-specs-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.my-pc-specs-banner {
+  width: 100%;
+  height: var(--dl-size-size-maxwidth);
+  display: inherit;
+  margin:: auto;
+  padding: var(--dl-space-space-threeunits);
+  max-width: 100%;
+  align-self: center;
+  max-height: 100vh;
+  transition: 0.3s;
+  align-items: center;
+  border-color: #000000;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/current%20projects%5B8%5D1-1400h.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.my-pc-specs-text {
+  color: #ff7388;
+  font-size: 5rem;
+  margin-top: 116px;
+  text-align: center;
+  font-family: Nanum Pen Script;
+  margin-bottom: 41px;
+}
+.my-pc-specs-text01 {
+  color: #f1324e;
+  font-size: 50px;
+  max-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Nanum Pen Script;
+}
+.my-pc-specs-navlink {
+  color: var(--dl-color-gray-white);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  font-style: normal;
+  transition: 0.3s;
+  flex-shrink: 0;
+  font-family: Comic Sans MS;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-unit);
+  border-style: groove;
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: #ff7388;
+}
+.my-pc-specs-navlink:hover {
+  transform: scale(1.02);
+}
+.my-pc-specs-text12 {
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+@media(max-width: 991px) {
+  .my-pc-specs-text {
+    margin-bottom: 250px;
+  }
+  .my-pc-specs-navlink {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .my-pc-specs-text12 {
+    max-width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .my-pc-specs-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .my-pc-specs-text {
+    margin-top: 203px;
+    margin-bottom: 0px;
+  }
+  .my-pc-specs-text12 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .my-pc-specs-banner {
+    height: var(--dl-size-size-maxwidth);
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .my-pc-specs-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .my-pc-specs-text01 {
+    width: auto;
+    font-size: 25px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+}
