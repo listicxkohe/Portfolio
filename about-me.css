@@ -110,7 +110,7 @@
   text-transform: uppercase;
 }
 .about-me-text04 {
-  color: #ff7388;
+  color: rgb(255, 115, 136);
   font-weight: 400;
   margin-bottom: var(--dl-space-space-twounits);
 }
