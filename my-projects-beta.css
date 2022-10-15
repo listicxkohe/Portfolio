@@ -20,10 +20,7 @@
   align-items: center;
   margin-bottom: auto;
   flex-direction: column;
-  background-size: cover;
-  background-image: url("public/playground_assets/current%20projects%5B6%5D-1500w.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #ffc6df;
 }
 .my-projects-beta-text {
   color: rgb(255, 115, 136);
@@ -190,18 +187,19 @@
 }
 @media(max-width: 479px) {
   .my-projects-beta-container {
-    background-color: #ffa3b9;
+    background-color: #f9cdd7;
   }
   .my-projects-beta-pricing {
     width: 100%;
     height: var(--dl-size-size-maxwidth);
     max-height: auto;
-    min-height: auto;
+    min-height: var(--dl-size-size-maxwidth);
     padding-top: var(--dl-space-space-twounits);
     margin-right: auto;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+    background-color: transparent;
   }
   .my-projects-beta-text {
     height: auto;
