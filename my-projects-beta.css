@@ -191,6 +191,9 @@
 }
 @media(max-width: 479px) {
   .my-projects-beta-pricing {
+    height: auto;
+    max-height: auto;
+    min-height: auto;
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
