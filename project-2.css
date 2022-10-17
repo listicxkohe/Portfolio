@@ -212,7 +212,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.project2-link {
+.project2-button {
   color: var(--dl-color-gray-white);
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   font-style: normal;
@@ -226,13 +226,12 @@
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
   background-color: #8e3d48;
 }
-.project2-link:hover {
+.project2-button:hover {
   transform: scale(1.02);
 }
-.project2-link1 {
+.project2-button1 {
   color: var(--dl-color-gray-white);
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   font-style: normal;
@@ -247,10 +246,9 @@
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
   background-color: #8e3d48;
 }
-.project2-link1:hover {
+.project2-button1:hover {
   transform: scale(1.02);
 }
 .project2-text08:hover {
@@ -683,7 +681,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.project2-button {
+.project2-button2 {
   color: var(--dl-color-gray-white);
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   font-style: normal;
@@ -700,7 +698,7 @@
   text-decoration: none;
   background-color: rgb(255, 115, 136);
 }
-.project2-button:hover {
+.project2-button2:hover {
   transform: scale(1.02);
 }
 @media(max-width: 991px) {
@@ -714,11 +712,11 @@
   .project2-text03 {
     max-width: 100%;
   }
-  .project2-link {
+  .project2-button {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .project2-link1 {
+  .project2-button1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -745,7 +743,7 @@
     margin-top: var(--dl-space-space-threeunits);
     margin-bottom: var(--dl-space-space-threeunits);
   }
-  .project2-button {
+  .project2-button2 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }

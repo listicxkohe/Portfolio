@@ -104,13 +104,17 @@
   justify-content: flex-start;
 }
 .about-me-text01 {
-  color: #ff7388;
+  color: rgb(255, 115, 136);
+  font-size: 20px;
+  text-align: center;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
   text-transform: uppercase;
 }
 .about-me-text04 {
   color: rgb(255, 115, 136);
+  font-size: 20px;
+  text-align: center;
   font-weight: 400;
   margin-bottom: var(--dl-space-space-twounits);
 }
@@ -129,7 +133,7 @@
   flex-direction: column;
 }
 .about-me-text05 {
-  color: #ff7388;
+  color: rgb(255, 115, 136);
   font-size: 3rem;
 }
 .about-me-text06 {
@@ -139,7 +143,7 @@
 }
 .about-me-text09 {
   color: var(--dl-color-gray-500);
-  font-size: 0.75rem;
+  font-size: 1rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
@@ -149,7 +153,7 @@
   flex-direction: column;
 }
 .about-me-text10 {
-  color: #ff7388;
+  color: rgb(255, 115, 136);
   font-size: 3rem;
 }
 .about-me-text11 {
@@ -159,7 +163,7 @@
 }
 .about-me-text12 {
   color: var(--dl-color-gray-500);
-  font-size: 0.75rem;
+  font-size: 1rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
@@ -169,17 +173,17 @@
   flex-direction: column;
 }
 .about-me-text13 {
-  color: #ff7388;
+  color: rgb(255, 115, 136);
   font-size: 3rem;
 }
-.about-me-text16 {
+.about-me-text14 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.about-me-text17 {
+.about-me-text15 {
   color: var(--dl-color-gray-500);
-  font-size: 0.75rem;
+  font-size: 1rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
@@ -188,18 +192,18 @@
   align-items: center;
   flex-direction: column;
 }
-.about-me-text18 {
+.about-me-text16 {
   color: rgb(255, 115, 136);
   font-size: 3rem;
 }
-.about-me-text19 {
+.about-me-text17 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.about-me-text20 {
+.about-me-text18 {
   color: var(--dl-color-gray-500);
-  font-size: 0.75rem;
+  font-size: 1rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
@@ -222,12 +226,12 @@
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
 }
-.about-me-text23 {
+.about-me-text21 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.about-me-text24 {
+.about-me-text22 {
   font-size: 3rem;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 300;
@@ -243,12 +247,12 @@
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
 }
-.about-me-text25 {
+.about-me-text23 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.about-me-text26 {
+.about-me-text24 {
   font-size: 3rem;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 300;
@@ -264,12 +268,12 @@
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
 }
-.about-me-text27 {
+.about-me-text25 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.about-me-text28 {
+.about-me-text26 {
   font-size: 3rem;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 300;
@@ -289,7 +293,7 @@
   padding-bottom: var(--dl-space-space-threeunits);
   background-color: #FFFAEE;
 }
-.about-me-text29 {
+.about-me-text27 {
   color: #ff7388;
   font-size: 3rem;
   font-family: Nanum Pen Script;
@@ -355,10 +359,10 @@
   .about-me-text13 {
     text-align: center;
   }
-  .about-me-text18 {
+  .about-me-text16 {
     text-align: center;
   }
-  .about-me-text29 {
+  .about-me-text27 {
     align-self: center;
   }
   .about-me-container2 {
@@ -388,10 +392,10 @@
   .about-me-text11 {
     text-align: center;
   }
-  .about-me-text16 {
+  .about-me-text14 {
     text-align: center;
   }
-  .about-me-text19 {
+  .about-me-text17 {
     text-align: center;
   }
   .about-me-stats1 {
@@ -401,19 +405,19 @@
   .about-me-stat4 {
     padding: var(--dl-space-space-unit);
   }
-  .about-me-text23 {
+  .about-me-text21 {
     text-align: center;
   }
   .about-me-stat5 {
     padding: var(--dl-space-space-unit);
   }
-  .about-me-text25 {
+  .about-me-text23 {
     text-align: center;
   }
   .about-me-stat6 {
     padding: var(--dl-space-space-unit);
   }
-  .about-me-text27 {
+  .about-me-text25 {
     text-align: center;
   }
   .about-me-features {
@@ -436,6 +440,9 @@
   .about-me-feature-card {
     height: 175px;
   }
+  .about-me-text04 {
+    background-color: rgba(0, 0, 0, 0.12);
+  }
   .about-me-stats {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -444,6 +451,7 @@
     grid-template-columns: 1fr;
   }
   .about-me-stats1 {
+    align-self: center;
     align-items: center;
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);

@@ -23,15 +23,17 @@
   font-size: 3rem;
   text-align: center;
 }
-.my-projects-text1 {
+.my-projects-text01 {
   max-width: var(--dl-size-size-maxwidth);
   margin-top: var(--dl-space-space-twounits);
   text-align: center;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.my-projects-text2 {
-  font-size: 3rem;
+.my-projects-text02 {
+  color: #FF7388;
+  font-size: 7rem;
   text-align: center;
+  font-family: Nanum Pen Script;
 }
 .my-projects-btn-group {
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -58,6 +60,7 @@
   color: var(--dl-color-gray-white);
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   font-style: normal;
+  text-align: center;
   transition: 0.3s;
   flex-shrink: 0;
   font-family: Comic Sans MS;
@@ -78,6 +81,7 @@
   color: var(--dl-color-gray-white);
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   font-style: normal;
+  text-align: center;
   transition: 0.3s;
   flex-shrink: 0;
   font-family: Comic Sans MS;
@@ -98,6 +102,7 @@
   color: var(--dl-color-gray-white);
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   font-style: normal;
+  text-align: center;
   transition: 0.3s;
   flex-shrink: 0;
   font-family: Comic Sans MS;
@@ -114,10 +119,11 @@
 .my-projects-navlink2:hover {
   transform: scale(1.02);
 }
-.my-projects-navlink3 {
+.my-projects-link {
   color: var(--dl-color-gray-white);
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   font-style: normal;
+  text-align: center;
   transition: 0.3s;
   flex-shrink: 0;
   font-family: Comic Sans MS;
@@ -131,87 +137,7 @@
   text-decoration: none;
   background-color: rgb(255, 115, 136);
 }
-.my-projects-navlink3:hover {
-  transform: scale(1.02);
-}
-.my-projects-navlink4 {
-  color: var(--dl-color-gray-white);
-  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
-  font-style: normal;
-  transition: 0.3s;
-  flex-shrink: 0;
-  font-family: Comic Sans MS;
-  font-weight: 700;
-  padding-top: var(--dl-space-space-unit);
-  border-style: groove;
-  border-width: 0px;
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgb(255, 115, 136);
-}
-.my-projects-navlink4:hover {
-  transform: scale(1.02);
-}
-.my-projects-navlink5 {
-  color: var(--dl-color-gray-white);
-  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
-  font-style: normal;
-  transition: 0.3s;
-  flex-shrink: 0;
-  font-family: Comic Sans MS;
-  font-weight: 700;
-  padding-top: var(--dl-space-space-unit);
-  border-style: groove;
-  border-width: 0px;
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgb(255, 115, 136);
-}
-.my-projects-navlink5:hover {
-  transform: scale(1.02);
-}
-.my-projects-navlink6 {
-  color: var(--dl-color-gray-white);
-  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
-  font-style: normal;
-  transition: 0.3s;
-  flex-shrink: 0;
-  font-family: Comic Sans MS;
-  font-weight: 700;
-  padding-top: var(--dl-space-space-unit);
-  border-style: groove;
-  border-width: 0px;
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgb(255, 115, 136);
-}
-.my-projects-navlink6:hover {
-  transform: scale(1.02);
-}
-.my-projects-navlink7 {
-  color: var(--dl-color-gray-white);
-  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
-  font-style: normal;
-  transition: 0.3s;
-  flex-shrink: 0;
-  font-family: Comic Sans MS;
-  font-weight: 700;
-  padding-top: var(--dl-space-space-unit);
-  border-style: groove;
-  border-width: 0px;
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: rgb(255, 115, 136);
-}
-.my-projects-navlink7:hover {
+.my-projects-link:hover {
   transform: scale(1.02);
 }
 @media(max-width: 991px) {
@@ -227,23 +153,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .my-projects-navlink3 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .my-projects-navlink4 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .my-projects-navlink5 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .my-projects-navlink6 {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .my-projects-navlink7 {
+  .my-projects-link {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -253,7 +163,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .my-projects-text1 {
+  .my-projects-text01 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }

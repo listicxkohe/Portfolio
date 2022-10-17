@@ -136,7 +136,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.project1-link {
+.project1-button {
   color: var(--dl-color-gray-white);
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   font-style: normal;
@@ -150,13 +150,12 @@
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
   background-color: #8e3d48;
 }
-.project1-link:hover {
+.project1-button:hover {
   transform: scale(1.02);
 }
-.project1-link1 {
+.project1-button1 {
   color: var(--dl-color-gray-white);
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   font-style: normal;
@@ -171,10 +170,9 @@
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
   background-color: #8e3d48;
 }
-.project1-link1:hover {
+.project1-button1:hover {
   transform: scale(1.02);
 }
 .project1-text06:hover {
@@ -339,7 +337,7 @@
   font-weight: 500;
   margin-bottom: var(--dl-space-space-unit);
 }
-.project1-text13 {
+.project1-text12 {
   color: var(--dl-color-gray-500);
   font-size: 0.75rem;
   text-align: center;
@@ -411,7 +409,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.project1-text15 {
+.project1-text14 {
   font-size: 1.5rem;
   text-align: center;
   font-weight: 500;
@@ -484,7 +482,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
 }
-.project1-text16 {
+.project1-text15 {
   font-size: 1.5rem;
   text-align: center;
   font-weight: 500;
@@ -499,7 +497,7 @@
   flex-direction: column;
   background-color: #fefbec;
 }
-.project1-text17 {
+.project1-text16 {
   color: #f1324e;
   font-size: 3rem;
   font-family: Nanum Pen Script;
@@ -525,7 +523,7 @@
   justify-content: space-between;
   background-color: #fefbec;
 }
-.project1-text19 {
+.project1-text18 {
   color: #f1324e;
   font-size: 4rem;
   max-width: 600px;
@@ -549,7 +547,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.project1-text20 {
+.project1-text19 {
   color: #f1324e;
   font-size: 1.15rem;
   max-width: 600px;
@@ -576,7 +574,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.project1-button {
+.project1-button2 {
   color: var(--dl-color-gray-white);
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   font-style: normal;
@@ -593,18 +591,18 @@
   text-decoration: none;
   background-color: rgb(255, 115, 136);
 }
-.project1-button:hover {
+.project1-button2:hover {
   transform: scale(1.02);
 }
 @media(max-width: 991px) {
   .project1-text {
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .project1-link {
+  .project1-button {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .project1-link1 {
+  .project1-button1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -615,17 +613,17 @@
   .project1-text08 {
     text-align: center;
   }
-  .project1-text17 {
+  .project1-text16 {
     text-align: center;
   }
   .project1-container14 {
     grid-template-columns: 1fr 1fr;
   }
-  .project1-text20 {
+  .project1-text19 {
     margin-top: var(--dl-space-space-threeunits);
     margin-bottom: var(--dl-space-space-threeunits);
   }
-  .project1-button {
+  .project1-button2 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -722,7 +720,7 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .project1-text13 {
+  .project1-text12 {
     text-align: left;
   }
   .project1-step2 {
@@ -760,7 +758,7 @@
     padding-bottom: var(--dl-space-space-twounits);
     justify-content: space-between;
   }
-  .project1-text15 {
+  .project1-text14 {
     margin-top: var(--dl-space-space-twounits);
     margin-left: 0px;
     margin-right: 0px;
@@ -801,7 +799,7 @@
     padding-bottom: var(--dl-space-space-twounits);
     justify-content: space-between;
   }
-  .project1-text16 {
+  .project1-text15 {
     margin-top: var(--dl-space-space-twounits);
     margin-left: 0px;
     margin-right: 0px;
@@ -811,7 +809,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .project1-text17 {
+  .project1-text16 {
     text-align: center;
   }
   .project1-devlogm {
@@ -886,7 +884,7 @@
     padding-right: 0px;
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .project1-text15 {
+  .project1-text14 {
     margin-left: 0px;
     margin-right: var(--dl-space-space-twounits);
   }
@@ -896,7 +894,7 @@
     padding-right: 0px;
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .project1-text16 {
+  .project1-text15 {
     margin-left: 0px;
     margin-right: var(--dl-space-space-twounits);
   }
@@ -915,7 +913,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .project1-text20 {
+  .project1-text19 {
     width: auto;
   }
   .project1-btn-group1 {
