@@ -22,7 +22,7 @@
 }
 
 .project-page-old-text {
-  color: #ff7388;
+  color: rgb(255, 115, 136);
   font-size: 5rem;
   margin-top: 77px;
   text-align: center;
@@ -30,7 +30,7 @@
   margin-bottom: 93px;
 }
 .project-page-old-text1 {
-  color: #f1324e;
+  color: rgb(241, 50, 78);
   font-size: 50px;
   max-width: 100%;
   box-sizing: border-box;
@@ -62,7 +62,7 @@
 .project-page-old-navlink:hover {
   transform: scale(1.02);
 }
-.project-page-old-text3 {
+.project-page-old-text6 {
   max-width: var(--dl-size-size-maxwidth);
   margin-top: var(--dl-space-space-twounits);
   text-align: center;
@@ -79,7 +79,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .project-page-old-text3 {
+  .project-page-old-text6 {
     max-width: 100%;
   }
 }
@@ -92,7 +92,7 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .project-page-old-text3 {
+  .project-page-old-text6 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }

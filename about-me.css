@@ -317,7 +317,7 @@
   justify-content: space-between;
   background-color: #FFFAEE;
 }
-.about-me-navlink {
+.about-me-button {
   color: var(--dl-color-gray-white);
   width: 189px;
   height: 45px;
@@ -336,7 +336,7 @@
   text-decoration: none;
   background-color: rgb(255, 115, 136);
 }
-.about-me-navlink:hover {
+.about-me-button:hover {
   transform: scale(1.02);
 }
 .about-me-btn-group {
@@ -364,7 +364,7 @@
   .about-me-container2 {
     grid-template-columns: 1fr 1fr;
   }
-  .about-me-navlink {
+  .about-me-button {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
