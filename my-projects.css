@@ -140,6 +140,26 @@
 .my-projects-link:hover {
   transform: scale(1.02);
 }
+.my-projects-navlink3 {
+  color: var(--dl-color-gray-white);
+  box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+  font-style: normal;
+  transition: 0.3s;
+  flex-shrink: 0;
+  font-family: Comic Sans MS;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-unit);
+  border-style: groove;
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: rgb(255, 115, 136);
+}
+.my-projects-navlink3:hover {
+  transform: scale(1.02);
+}
 @media(max-width: 991px) {
   .my-projects-navlink {
     padding-left: var(--dl-space-space-twounits);
@@ -154,6 +174,10 @@
     padding-right: var(--dl-space-space-twounits);
   }
   .my-projects-link {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .my-projects-navlink3 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }

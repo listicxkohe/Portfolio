@@ -681,7 +681,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.project2-button2 {
+.project2-navlink {
   color: var(--dl-color-gray-white);
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   font-style: normal;
@@ -698,7 +698,7 @@
   text-decoration: none;
   background-color: rgb(255, 115, 136);
 }
-.project2-button2:hover {
+.project2-navlink:hover {
   transform: scale(1.02);
 }
 @media(max-width: 991px) {
@@ -743,7 +743,7 @@
     margin-top: var(--dl-space-space-threeunits);
     margin-bottom: var(--dl-space-space-threeunits);
   }
-  .project2-button2 {
+  .project2-navlink {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
