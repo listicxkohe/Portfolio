@@ -10,7 +10,8 @@ public class calculator {
         numberTwo = thisNumberTwo;
         calculatorName = thisCalcName;
     }
-
+ 
+    
     void displayResults(){
         System.out.println("------------" +calculatorName+ "--------------");
         System.out.println(">>RESULTS FOR " + numberOne + " & " + numberTwo + " ARE: ");
