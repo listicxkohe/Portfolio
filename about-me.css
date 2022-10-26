@@ -127,16 +127,16 @@
   align-items: center;
   flex-direction: column;
 }
-.about-me-text05 {
+.about-me-text09 {
   color: rgb(255, 115, 136);
   font-size: 3rem;
 }
-.about-me-text06 {
+.about-me-text10 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.about-me-text09 {
+.about-me-text13 {
   color: var(--dl-color-gray-500);
   font-size: 1rem;
   margin-top: var(--dl-space-space-halfunit);
@@ -147,16 +147,16 @@
   align-items: center;
   flex-direction: column;
 }
-.about-me-text10 {
+.about-me-text14 {
   color: rgb(255, 115, 136);
   font-size: 3rem;
 }
-.about-me-text11 {
+.about-me-text15 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.about-me-text12 {
+.about-me-text16 {
   color: var(--dl-color-gray-500);
   font-size: 1rem;
   margin-top: var(--dl-space-space-halfunit);
@@ -167,16 +167,16 @@
   align-items: center;
   flex-direction: column;
 }
-.about-me-text13 {
+.about-me-text17 {
   color: rgb(255, 115, 136);
   font-size: 3rem;
 }
-.about-me-text14 {
+.about-me-text18 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.about-me-text15 {
+.about-me-text19 {
   color: var(--dl-color-gray-500);
   font-size: 1rem;
   margin-top: var(--dl-space-space-halfunit);
@@ -187,16 +187,16 @@
   align-items: center;
   flex-direction: column;
 }
-.about-me-text16 {
+.about-me-text20 {
   color: rgb(255, 115, 136);
   font-size: 3rem;
 }
-.about-me-text17 {
+.about-me-text21 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.about-me-text18 {
+.about-me-text22 {
   color: var(--dl-color-gray-500);
   font-size: 1rem;
   margin-top: var(--dl-space-space-halfunit);
@@ -222,12 +222,12 @@
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
 }
-.about-me-text21 {
+.about-me-text25 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.about-me-text22 {
+.about-me-text26 {
   font-size: 3rem;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 300;
@@ -243,12 +243,12 @@
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
 }
-.about-me-text23 {
+.about-me-text27 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.about-me-text24 {
+.about-me-text28 {
   font-size: 3rem;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 300;
@@ -264,12 +264,12 @@
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
 }
-.about-me-text25 {
+.about-me-text29 {
   font-size: 1.15rem;
   margin-top: var(--dl-space-space-halfunit);
   text-align: center;
 }
-.about-me-text26 {
+.about-me-text30 {
   font-size: 3rem;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 300;
@@ -289,7 +289,7 @@
   padding-bottom: var(--dl-space-space-threeunits);
   background-color: #FFFAEE;
 }
-.about-me-text27 {
+.about-me-text31 {
   color: #ff7388;
   font-size: 3rem;
   text-align: center;
@@ -347,19 +347,19 @@
   flex-direction: row;
 }
 @media(max-width: 991px) {
-  .about-me-text05 {
+  .about-me-text09 {
     text-align: center;
   }
-  .about-me-text10 {
+  .about-me-text14 {
     text-align: center;
   }
-  .about-me-text13 {
+  .about-me-text17 {
     text-align: center;
   }
-  .about-me-text16 {
+  .about-me-text20 {
     text-align: center;
   }
-  .about-me-text27 {
+  .about-me-text31 {
     align-self: center;
   }
   .about-me-container2 {
@@ -380,19 +380,19 @@
     padding-right: var(--dl-space-space-twounits);
     grid-template-columns: 1fr 1fr;
   }
-  .about-me-text06 {
-    text-align: center;
-  }
-  .about-me-text07 {
+  .about-me-text10 {
     text-align: center;
   }
   .about-me-text11 {
     text-align: center;
   }
-  .about-me-text14 {
+  .about-me-text15 {
     text-align: center;
   }
-  .about-me-text17 {
+  .about-me-text18 {
+    text-align: center;
+  }
+  .about-me-text21 {
     text-align: center;
   }
   .about-me-stats1 {
@@ -402,19 +402,19 @@
   .about-me-stat4 {
     padding: var(--dl-space-space-unit);
   }
-  .about-me-text21 {
+  .about-me-text25 {
     text-align: center;
   }
   .about-me-stat5 {
     padding: var(--dl-space-space-unit);
   }
-  .about-me-text23 {
+  .about-me-text27 {
     text-align: center;
   }
   .about-me-stat6 {
     padding: var(--dl-space-space-unit);
   }
-  .about-me-text25 {
+  .about-me-text29 {
     text-align: center;
   }
   .about-me-features {
@@ -438,6 +438,9 @@
     height: 175px;
   }
   .about-me-text04 {
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+  .about-me-text05 {
     background-color: rgba(0, 0, 0, 0.12);
   }
   .about-me-stats {

@@ -35,7 +35,7 @@
   margin-bottom: 41px;
 }
 .my-pc-specs-text01 {
-  color: #f1324e;
+  color: rgb(241, 50, 78);
   font-size: 50px;
   max-width: 100%;
   box-sizing: border-box;
@@ -62,7 +62,7 @@
 .my-pc-specs-navlink:hover {
   transform: scale(1.02);
 }
-.my-pc-specs-text12 {
+.my-pc-specs-text13 {
   max-width: var(--dl-size-size-maxwidth);
   margin-top: var(--dl-space-space-twounits);
   text-align: center;
@@ -76,7 +76,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .my-pc-specs-text12 {
+  .my-pc-specs-text13 {
     max-width: 100%;
   }
 }
@@ -89,7 +89,7 @@
     margin-top: 203px;
     margin-bottom: 0px;
   }
-  .my-pc-specs-text12 {
+  .my-pc-specs-text13 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
