@@ -24,16 +24,16 @@
   text-align: center;
 }
 .my-projects-text01 {
-  max-width: var(--dl-size-size-maxwidth);
-  margin-top: var(--dl-space-space-twounits);
-  text-align: center;
-  margin-bottom: var(--dl-space-space-twounits);
-}
-.my-projects-text02 {
   color: #FF7388;
   font-size: 7rem;
   text-align: center;
   font-family: Nanum Pen Script;
+}
+.my-projects-text04 {
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
 }
 .my-projects-btn-group {
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -144,6 +144,7 @@
   color: var(--dl-color-gray-white);
   box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
   font-style: normal;
+  text-align: center;
   transition: 0.3s;
   flex-shrink: 0;
   font-family: Comic Sans MS;
@@ -187,7 +188,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .my-projects-text01 {
+  .my-projects-text04 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
