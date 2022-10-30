@@ -24,8 +24,10 @@
   text-align: center;
 }
 .my-projects-text01 {
-  color: #FF7388;
-  font-size: 7rem;
+  color: rgb(255, 115, 136);
+  width: 716px;
+  height: 159px;
+  font-size: 9rem;
   text-align: center;
   font-family: Nanum Pen Script;
 }
